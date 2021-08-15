@@ -1,0 +1,37 @@
+.header-icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.ctn-header{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+.main-ctn{
+    margin: 30px auto;
+    border-radius: .25rem;
+}
+.tab-tit,.tab-tit:hover, .tab-pane{
+    color: white ;
+}
+.nav-link{
+    font-weight: bold;
+}
+.nav-link.active{
+    background-color: #343A40 !important;
+    color:white !important;
+    text-shadow: 1px 1px 3px white;
+    transition: all 200ms linear;
+}
+@media(max-width: 772px){
+    h1{
+        font-size: 20px;
+    }
+    .input-group{
+        width: 75% !important;
+    }
+    .main-ctn{
+        width: 100% !important;
+    }
+}
